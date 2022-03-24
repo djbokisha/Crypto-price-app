@@ -13,7 +13,7 @@ function Coin({
     <div className="coin">
       <h1>Name: {name} </h1>
       <h1>#{rank}</h1>
-      <img src={icon} />
+      <img src={icon} alt=" " />
 
       <h3>Price: {price}</h3>
       <h3>Symbol: {symbol} </h3>
